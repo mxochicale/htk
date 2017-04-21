@@ -1,0 +1,846 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<base href="http://web.bham.ac.uk/p.jackson/eem4r/">
+<link rel=File-List
+href="file:///C:\Users\jancovip\Dropbox\mineSchoolRelated\Year2014-15\Teaching_2014_15\EE4R_ASLP\Lab2_Jan2015\Lab2_SpokenLangProcess_Feb2015_final_files\filelist.xml">
+<link rel=Edit-Time-Data
+href="file:///C:\Users\jancovip\Dropbox\mineSchoolRelated\Year2014-15\Teaching_2014_15\EE4R_ASLP\Lab2_Jan2015\Lab2_SpokenLangProcess_Feb2015_final_files\editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>EEM4R Speech processing laboratory 1</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>russelmj</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Peter Jancovic</o:LastAuthor>
+  <o:Revision>32</o:Revision>
+  <o:TotalTime>5672</o:TotalTime>
+  <o:Created>2015-01-17T14:03:00Z</o:Created>
+  <o:LastSaved>2015-01-29T16:54:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>2062</o:Words>
+  <o:Characters>11754</o:Characters>
+  <o:Company>University of Birmingham</o:Company>
+  <o:Lines>97</o:Lines>
+  <o:Paragraphs>27</o:Paragraphs>
+  <o:CharactersWithSpaces>13789</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData
+href="file:///C:\Users\jancovip\Dropbox\mineSchoolRelated\Year2014-15\Teaching_2014_15\EE4R_ASLP\Lab2_Jan2015\Lab2_SpokenLangProcess_Feb2015_final_files\themedata.thmx">
+<link rel=colorSchemeMapping
+href="file:///C:\Users\jancovip\Dropbox\mineSchoolRelated\Year2014-15\Teaching_2014_15\EE4R_ASLP\Lab2_Jan2015\Lab2_SpokenLangProcess_Feb2015_final_files\colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>120</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-GB</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;
+	font-weight:bold;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;
+	font-weight:bold;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-link:"Body Text 3 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;
+	text-decoration:underline;
+	text-underline:single;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+address
+	{mso-style-unhide:no;
+	mso-style-link:"HTML Address Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	color:black;
+	font-style:italic;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+span.HTMLAddressChar
+	{mso-style-name:"HTML Address Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"HTML Address";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	color:black;
+	font-style:italic;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.BodyText3Char
+	{mso-style-name:"Body Text 3 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Body Text 3";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	color:black;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;
+	color:black;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:"Times New Roman";
+	color:windowtext;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor="#F0F0F0" lang=EN-GB link=blue vlink=blue style='tab-interval:
+36.0pt'>
+
+<div class=WordSection1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width="95%"
+ style='width:95.0%;mso-cellspacing:1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:45.0pt'>
+  <td width=140 valign=top style='width:105.0pt;padding:.75pt .75pt .75pt .75pt;
+  height:45.0pt'>
+  <h1 style='margin:0cm;margin-bottom:.0001pt'><span style='mso-fareast-font-family:
+  "Times New Roman"'><o:p>&nbsp;</o:p></span></h1>
+  <h1 style='margin:0cm;margin-bottom:.0001pt'><span style='mso-fareast-font-family:
+  "Times New Roman"'>EE4R<o:p></o:p></span></h1>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt;height:45.0pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  <h1><span style='mso-fareast-font-family:"Times New Roman"'>Automatic Spoken
+  Language Processing<o:p></o:p></span></h1>
+  <h1><span style='mso-fareast-font-family:"Times New Roman"'>Laboratory 2:
+  Speech Recognition using HTK<o:p></o:p></span></h1>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td nowrap valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <p><span style='mso-spacerun:yes'> </span></p>
+  </td>
+  <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Introduction<o:p></o:p></span></h2>
+  <p>The purpose of this laboratory is to familiarise you with automatic speech
+  recognition.<span style='mso-spacerun:yes'>  </span>You will use the Hidden
+  Markov Model Toolkit (HTK) to build a connected digit recognition system
+  which takes an acoustic speech signal as input, performs training of the HMMs
+  for each digit and evaluate the performance of the system on a provided
+  dataset.<span style='mso-spacerun:yes'>  </span>The entire HTK consists of
+  several tools (exe-files), each performing a specific operation, e.g.,
+  feature extraction, HMM training, etc.<span style='mso-spacerun:yes'> 
+  </span>Each tool is executed in the Command Prompt Window by typing its name
+  together with passing all the required input parameters.<span
+  style='mso-spacerun:yes'>  </span>The exe-files of the individual HTK tools
+  are included in the LabASR.zip file to be downloaded below.<span
+  style='mso-spacerun:yes'>  </span>The manual for the HTK software is also
+  included there – the manual is big but you are going to need it only
+  occasionally as a reference in order to find out the meaning of the
+  input/output parameters which are passed when using specific HTK tool.</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Getting started<o:p></o:p></span></h2>
+  <p>Download the zip-file LabASR.zip to your Y: drive.<span
+  style='mso-spacerun:yes'>  </span>Open the zip-file and copy the entire
+  directory structure to your Y:\ drive.<span style='mso-spacerun:yes'> 
+  </span>Run the Command Prompt Window by going to the Windows Start menu and
+  typing ‘<span class=SpellE>cmd</span>’ (no quotes).<span
+  style='mso-spacerun:yes'>  </span>Using the ‘cd’ command to set your
+  directory to the place you copied the unzipped file.<span
+  style='mso-spacerun:yes'>  </span>You should now be set to start running some
+  HTK tools.</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Viewing the
+  signal<o:p></o:p></span></h2>
+  <p>In this initial exercise you will practice the use of the <span
+  class=SpellE>HList</span> tool.<span style='mso-spacerun:yes'>  </span>This
+  tool allows you to view wav-files or files containing features extracted from
+  wav-files (the feature extraction can be performed using the <span
+  class=SpellE>HCopy</span> tool which will be the subject of the next
+  exercise).<span style='mso-spacerun:yes'>  </span>Typing the below gives the
+  values of samples in the wav-file and these are stored in the file ‘<span
+  class=SpellE>logHList_wav</span>’: </p>
+  <p>HTK3.2bin\\<span class=SpellE>HList</span> -h -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_HList_wav</span>
+  dataAurora2/wavEE4R/TRAIN/CLEAN1/FAC_13A.wav &gt; <span class=SpellE>logHList_wav</span></p>
+  <p>You can examine the file containing the <span class=SpellE>mfcc</span>
+  features (after you have created them as described in the next exercise) by
+  typing:</p>
+  <p>HTK3.2bin\\<span class=SpellE>HList</span> -h -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_HList_mfcc</span><span style='mso-spacerun:yes'> 
+  </span>dataAurora2/specEE4R/TRAIN/CLEAN1/FAC_13A.mfcc &gt; <span
+  class=SpellE>logHList_mfcc</span></p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Feature
+  extraction<o:p></o:p></span></h2>
+  <p>Experience the use of the <span class=SpellE>HCopy</span> tool.<span
+  style='mso-spacerun:yes'>  </span>This allows you to extract a sequence of
+  feature vectors from a given wav-file.<span style='mso-spacerun:yes'> 
+  </span>It is capable of extracting several different types of features, e.g.,
+  logarithm filter-bank energies, MFCCs, etc.<span style='mso-spacerun:yes'> 
+  </span>By typing the below, you can convert the ‘MAE_12A.wav’ file into a
+  file with the same name but extension .<span class=SpellE>mfcc</span> which
+  contains the MFCC features (the feature file will be located in different
+  directory):</p>
+  <p class=MsoNormal>HTK3.2bin\\<span class=SpellE>HCopy</span> -C <span
+  class=SpellE>config</span>/<span class=SpellE>config_HCopy_MFCC_E</span>
+  dataAurora2/wavEE4R/TRAIN/CLEAN1/FAC_13A.wav dataAurora2/specEE4R/TRAIN/CLEAN1/FAC_13A.mfcc</p>
+  <p>The <span class=SpellE>HCopy</span> tool can be used to extract features
+  for a set of files listed in a given text-file.<span
+  style='mso-spacerun:yes'>  </span>This can be performed by using the <span
+  class=SpellE>HCopy</span> as below, where the ‘<span class=SpellE>listTrainFullPath_Hcopy.scp</span>’
+  is a text-file containing the list of files (full path) to be processed.<span
+  style='mso-spacerun:yes'>  </span>This file is located in the ‘list’
+  directory.<span style='mso-spacerun:yes'>  </span>Open and view this file and
+  you can see that each line contains two files (with full path) – the first is
+  the file to be used as the input and the second is the file to be used as the
+  output.<span style='mso-spacerun:yes'>  </span>You will need to modify the
+  path here to be the path where your data are located.<span
+  style='mso-spacerun:yes'>  </span>After you have done the path modifications,
+  type: </p>
+  <p>HTK3.2bin\\<span class=SpellE>HCopy</span> -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_HCopy_MFCC_E</span> -S
+  list/listTrainHCopy_EE4R_CLEAN1.scp</p>
+  <p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'>The
+  option -S is to specify a script file name (listTrainHCopy_EE4R_CLEAN1.scp)
+  that contains the list of files to be converted.</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Building the
+  digit recognition system – parameter set-up<o:p></o:p></span></h2>
+  <p>In the previous exercise, we have converted a set of wav-files into files
+  containing the features.<span style='mso-spacerun:yes'>  </span>Now, we start
+  to build our digit recognition system.<span style='mso-spacerun:yes'> 
+  </span>We will need the following:</p>
+  <p>- Vocabulary list – file ‘<span class=SpellE>wordList_noSP</span>’ located
+  under the ‘lib’ directory – this contains the list of words the recogniser is
+  going to be able to recognise.<span style='mso-spacerun:yes'>  </span>A model
+  will be built for each vocabulary word.</p>
+  <p>- Dictionary (or pronunciation model) – file ‘<span class=SpellE>wordDict</span>’
+  located under the ‘lib’ directory – this defines the mapping of words to
+  acoustic units, i.e., how model of each vocabulary word is built using a
+  single (or a sequence of concatenated) HMMs.<span style='mso-spacerun:yes'> 
+  </span>Since we are using in this example HMMs of whole words, the dictionary
+  contains a repetition of each vocabulary word.<span
+  style='mso-spacerun:yes'>  </span>Note that this would be a different case if
+  HMMs of each phoneme are built.</p>
+  <p>- Language model (or grammar) – file ‘<span class=SpellE>wordNetwork</span>’
+  located under the ‘lib’ directory – this defines (in a specific format) the
+  set of possible sentences that can be recognised, as well as their relative
+  prior probabilities.<span style='mso-spacerun:yes'>  </span>It can be written
+  by hand or more conveniently the tool <span class=SpellE>HParse</span> can be
+  used.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>-
+  Features extracted for the training / testing data – are located under
+  ‘dataAurora2’ directory.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>-
+  Label files for the training / testing data – file ‘label_EE4R_noSP.mlf’
+  located under the ‘label’ directory is to be used in the first instance.<span
+  style='mso-spacerun:yes'>  </span>You can open this text file and see that it
+  contains the labels (i.e., transcription of what have been spoken in terms of
+  the digits) for all the training data.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>-
+  Prototype HMM – file ‘proto_s1d13_st8m1_EE4R_MFCC_E’ located under the ‘lib’
+  directory.<span style='mso-spacerun:yes'>  </span>You can open this text file
+  and see that it contains a definition of the type of HMM to be used – it
+  defines the dimension of the features, the number of states in the HMM,
+  initial values for means, variances and weights for each state (these values
+  are indicative only – they inform about the structure of the HMM), and the
+  transition probability matrix which determines the possible transitions
+  between states (the transitions assigned to zero will not be possible).</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>-
+  Configuration file for the individual tools – each tool may have different
+  configuration file (containing the parameters of the processing to be
+  performed).</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Building the
+  digit recognition system – training the HMMs<o:p></o:p></span></h2>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>1.
+  Create the directory hmm0 under <span class=SpellE>hmmsTrained</span>.<span
+  style='mso-spacerun:yes'>  </span>The initial parameters of HMMs are going to
+  be estimated using the tool <span class=SpellE>HCompV</span>.<span
+  style='mso-spacerun:yes'>  </span>By executing the following, the initially
+  trained HMM parameters will be located in the file ‘<span class=SpellE>hmmdef</span>’
+  (and ‘<span class=SpellE>vFloors</span>’) under the directory ‘<span
+  class=SpellE>hmmsTrained</span>/hmm0’.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>HCompV</span> -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_train_MFCC_E</span> -o <span class=SpellE>hmmdef</span>
+  -f 0.01 -m -S list/listTrainFullPath_EE4R_CLEAN1.scp -M <span class=SpellE>hmmsTrained</span>/hmm0
+  lib/proto_s1d13_st8m1_EE4R_MFCC_E</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>2.
+  Now you will create 2 files (could be done manually but you are provided
+  exe-files which do the work automatically for you):</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Type
+  the below – it will create file with name ‘models’ containing the HMM
+  definition of all the 11 digits and the silence model.<span
+  style='mso-spacerun:yes'>  </span>The ‘models’ file could be created manually
+  by simply copying the content of ‘<span class=SpellE>hmmdef</span>’ several
+  times (for each vocabulary unit) and replacing the name according to the
+  vocabulary.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\models_1mixsil
+  <span class=SpellE>hmmsTrained</span>/hmm0/<span class=SpellE>hmmdef</span> <span
+  class=SpellE>hmmsTrained</span>/hmm0/models</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Type
+  the below, which creates the so-called macro-file having basically the same
+  content as the file ‘<span class=SpellE>vFloors</span>’ but slightly modified
+  structure.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\macro
+  13 MFCC_E <span class=SpellE>hmmsTrained</span>/hmm0/<span class=SpellE>vFloors</span>
+  <span class=SpellE>hmmsTrained</span>/hmm0/macros</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>3.
+  The next step is to run several iterations of the Baum-Welch training
+  procedure.<span style='mso-spacerun:yes'>  </span>This can be done using the
+  tool <span class=SpellE>HERest</span>.<span style='mso-spacerun:yes'> 
+  </span>Among the input parameters for this tool is the input directory
+  containing the current HMM parameters (which is now ‘<span class=SpellE>hmmsTrained</span>/hmm0’)
+  and the output directory containing the new retrained HMM parameters (which
+  is now ‘<span class=SpellE>hmmsTrained</span>/hmm1’).<span
+  style='mso-spacerun:yes'>  </span>Thus, you need to create the new directory
+  ‘hmm1’ and then run:</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>HERest</span> -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_train_MFCC_E</span> -I label/label_EE4R_noSP.mlf -t 250.0
+  150.0 1000.0 -S list/listTrainFullPath_EE4R_CLEAN1.scp -H <span class=SpellE>hmmsTrained</span>/hmm0/macros
+  -H <span class=SpellE>hmmsTrained</span>/hmm0/models -M <span class=SpellE>hmmsTrained</span>/hmm1
+  lib/<span class=SpellE>wordList_noSP</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Altogether,
+  perform three iterations of the <span class=SpellE>HERest</span> – before
+  each <span class=GramE>iteration,</span> make a new directory (hmm1, hmm2,
+  and hmm3) where the newly trained HMMs are going to be stored.<span
+  style='mso-spacerun:yes'>  </span>Also, do not forget to change the
+  corresponding input and output directory names in the above <span
+  class=SpellE>HERest</span> command.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>4.
+  Now create two new directories ‘hmm4’ and ‘hmm5’. Then copy the content of
+  the directory ‘hmm3’ into the ‘hmm4’ directory.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>5.
+  Create the model for a short-pause ‘<span class=SpellE>sp</span>’ by
+  performing the command below:</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>spmodel_gen</span> <span class=SpellE>hmmsTrained</span>/hmm3/models
+  <span class=SpellE>hmmsTrained</span>/hmm4/models</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>To
+  fix the <span class=SpellE>sp</span> model:</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>HHEd</span> -H <span class=SpellE>hmmsTrained</span>/hmm4/macros
+  -H <span class=SpellE>hmmsTrained</span>/hmm4/models -M <span class=SpellE>hmmsTrained</span>/hmm5
+  lib/tieSILandSP_EE4R.hed lib/<span class=SpellE>wordList_withSP</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>6.
+  Perform another three iterations of the <span class=SpellE>HERest</span>
+  (with ‘<span class=SpellE>sp</span>’ this time) – before each iteration, make
+  a new directory where the newly trained HMMs are stored.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>HERest</span> -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_train_MFCC_E</span> -I label/label_EE4R_withSP.mlf -t
+  250.0 150.0 1000.0 -S list/listTrainFullPath_EE4R_CLEAN1.scp -H <span
+  class=SpellE>hmmsTrained</span>/hmm5/macros -H <span class=SpellE>hmmsTrained</span>/hmm5/models
+  -M <span class=SpellE>hmmsTrained</span>/hmm6 lib/<span class=SpellE>wordList_withSP</span></p>
+  <p>Training finished! – you have now obtained trained models of digits in the
+  folder hmm8, each modelled by 10 state HMM with a single Gaussian PDF with
+  diagonal covariance matrices.<span style='mso-spacerun:yes'>  </span>Let’s go
+  to testing (recognition).</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Building the
+  digit recognition system – recognition<o:p></o:p></span></h2>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>1.
+  The tool <span class=SpellE>HVite</span> is to be used for testing of the
+  recognition system.<span style='mso-spacerun:yes'>  </span>This performs the
+  Viterbi algorithm and gives the sequence of models which are most likely to
+  produce the given unknown utterance.<span style='mso-spacerun:yes'> 
+  </span>Among the input parameters to the <span class=SpellE>HVite</span> tool
+  are the trained HMMs and the list of testing utterances (from the testing
+  data directory).<span style='mso-spacerun:yes'>  </span>First, you need to
+  extract features from the testing wav files using the <span class=SpellE>HCopy</span>
+  tool as described earlier.<span style='mso-spacerun:yes'>  </span>Then, you
+  can run the Viterbi decoding using:</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>HVite</span> -H <span class=SpellE>hmmsTrained</span>/hmm8/macros
+  -H <span class=SpellE>hmmsTrained</span>/hmm8/models -S
+  list/listTestFullPath_EE4R_CLEAN1.scp -C <span class=SpellE>config</span>/<span
+  class=SpellE>config_test_MFCC_E</span><span style='mso-spacerun:yes'> 
+  </span>-w lib/<span class=SpellE>wordNetwork</span> -<span class=SpellE>i</span>
+  result/<span class=SpellE>result.mlf</span> -p 10 -s 0.0 lib/<span
+  class=SpellE>wordDict</span> lib/<span class=SpellE>wordList_withSP</span></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>2.
+  Tool <span class=SpellE>HResults</span> is to be used for analysing the
+  results of the <span class=SpellE>HVite</span> and providing the final
+  recognition accuracy of the system.<span style='mso-spacerun:yes'> 
+  </span>The ‘-e’ option will cause that ‘<span class=SpellE>sil</span>’ models
+  will be omitted from counts for the overall recognition performance.</p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>HTK3.2bin\\<span
+  class=SpellE>HResults</span> -e &quot;???&quot; <span class=SpellE>sil</span>
+  -e &quot;???&quot; <span class=SpellE>sp</span><span
+  style='mso-spacerun:yes'>  </span>-I label/labelTest_EE4R.mlf lib/<span
+  class=SpellE>wordList_withSP</span> result/<span class=SpellE>result.mlf</span><span
+  style='mso-spacerun:yes'>  </span>&gt;&gt; result/recognitionFinalResult.res</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Perl scripts<o:p></o:p></span></h2>
+  <p>In the Lab directory in Canvas you can find the file
+  perlScripts_LabASR.zip – this contains several <span class=SpellE>perl</span>
+  scripts which in a neat way incorporate all the above commands.<span
+  style='mso-spacerun:yes'>  </span>The ASR_EE4R.pl script does all the above
+  (feature extraction, training and testing) and the ASR_EE4R_onlyTest.pl
+  performs testing only (assuming the training has been performed).<span
+  style='mso-spacerun:yes'>  </span>You will need to change paths inside the <span
+  class=SpellE>perl</span> scripts.<span style='mso-spacerun:yes'>  </span>Then
+  you can run the first <span class=SpellE>perl</span> script by typing ‘<span
+  class=SpellE>perl</span> ASR_EE4R.pl’ in the Command Prompt window – it
+  should perform the feature extraction, the entire training and testing.<span
+  style='mso-spacerun:yes'>  </span>For a reference, an introduction to Perl is
+  located in the Lab directory in Canvas.</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Lab Tasks<o:p></o:p></span></h2>
+  <p>1.<span style='mso-spacerun:yes'>  </span>Explore the effect of delta and
+  delta-delta features.<span style='mso-spacerun:yes'>  </span>Using the
+  provided <span class=SpellE>perl</span> script, modify the recognition system
+  developed above such that it uses not only the static <span class=SpellE>mfcc</span>
+  features (i.e., MFCC_E) but also the delta and delta-delta features (i.e.,
+  MFCC_E_D_A).<span style='mso-spacerun:yes'>  </span>You will need to perform
+  modifications at several places.<span style='mso-spacerun:yes'>  </span>In
+  the <span class=SpellE>HCopy</span> <span class=SpellE>config</span> modify
+  the TARGETKIND to MFCC_E_D_A and set the DELTAWINDOW=3 and ACCWINDOW=2.<span
+  style='mso-spacerun:yes'>  </span>You will also need to modify the TARGETKIND
+  in <span class=SpellE>config_train</span> and <span class=SpellE>config_test</span>
+  and will need to use the proto_s1d39_st8m1_EE4R_MFCC_E_D_A.<span
+  style='mso-spacerun:yes'>  </span>Train the system using the clean training
+  data.<span style='mso-spacerun:yes'>  </span>Perform experimental evaluations
+  on clean testing data.<span style='mso-spacerun:yes'>  </span>Report and
+  discuss your results.</p>
+  <p>2.<span style='mso-spacerun:yes'>  </span>Investigate the effect of
+  improved modelling.<span style='mso-spacerun:yes'>  </span>Modify the
+  provided <span class=SpellE>perl</span> scripts (and configuration files) to
+  develop a recognition system that uses the MFCC_E_D_A features and employs 3
+  Gaussian mixture components per state.<span style='mso-spacerun:yes'> 
+  </span>Train the system using the clean training data.<span
+  style='mso-spacerun:yes'>  </span>Perform experimental evaluations on clean
+  testing data and compare the results with those obtained using a single
+  Gaussian per state as obtained from Task&nbsp;1.<span
+  style='mso-spacerun:yes'>  </span>Report and discuss your results.</p>
+  <p>3.<span style='mso-spacerun:yes'>  </span>Explore the effect of the word
+  insertion penalty.<span style='mso-spacerun:yes'>  </span>Perform
+  experimental evaluations of the recognition system developed under Task&nbsp;2
+  on the provided clean and each noisy testing data separately when using various
+  values (in steps of 10; could be positive and negative) for the word
+  insertion penalty (i.e., value for ‘-p’ flag in <span class=SpellE>HVite</span>
+  command).<span style='mso-spacerun:yes'>  </span>Aim to reasonably balance
+  the amount of deletions and insertions.<span style='mso-spacerun:yes'> 
+  </span>Report and discuss your results.</p>
+  <p>4.<span style='mso-spacerun:yes'>  </span>Develop a noise compensated
+  system.<span style='mso-spacerun:yes'>  </span>Use the recognition system
+  setup as developed under the Task&nbsp;2 but train the system using both
+  clean and all noisy training data.<span style='mso-spacerun:yes'> 
+  </span>Perform experimental evaluation of this system on both clean and noisy
+  data.<span style='mso-spacerun:yes'>  </span>Set the word insertion penalty
+  to values which you found suitable (to provide a good balance of the amount
+  of deletions and insertions) under Task&nbsp;3.<span
+  style='mso-spacerun:yes'>  </span>Report and discuss your results (and
+  compare to those obtained under Task&nbsp;3).</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Lab Report
+  Submission<o:p></o:p></span></h2>
+  <p>All the above tasks carry an equal mark.<span style='mso-spacerun:yes'> 
+  </span>You should report concisely on each of the above tasks.<span
+  style='mso-spacerun:yes'>  </span>Describe clearly what changes you needed to
+  make to perform the task and discuss the obtained results.<span
+  style='mso-spacerun:yes'>  </span>Your report from this lab is expected to be
+  no longer than 9 pages and the submission is through Canvas.<span
+  style='mso-spacerun:yes'>  </span>Standard penalty of 5% per day applies for
+  late submissions.</p>
+  <h2><span style='mso-fareast-font-family:"Times New Roman"'>Feedback<o:p></o:p></span></h2>
+  <p>If you have any comments or suggestions about this lab, please email P
+  Jancovic at <a href="mailto:p.jancovic@bham.ac.uk">p.jancovic@bham.ac.uk</a>
+  .</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p align=center style='text-align:center'><span style='mso-no-proof:yes'><img
+border=0 width=700 height=8 id="_x0000_i1025"
+src="http://www.bham.ac.uk/general/images/endrule1.gif"
+alt="http://www.bham.ac.uk/general/images/endrule1.gif"></span></p>
+
+</div>
+
+</body>
+
+</html>
